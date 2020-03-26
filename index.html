@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calc Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Calculate your allotment of guv'ment cheese</h1>
+  <form id="cheese-cart">
+  <label for="rats">How many rats yuh bash?</label>
+  <br>
+  <input type="number" min="0" id="rats" placeholder="0">
+  <br><br>
+  <label for="god">Didja pray to the one an' almight' God, King George II?</label>
+  <br>
+  <select id="god">
+    <option value="">--select--</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Estimate Cheese" id="btn-estimate">
+  <input type="text" id="txt-estimate" placeholder="0 wedges" size="40">
+  
+</form>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
